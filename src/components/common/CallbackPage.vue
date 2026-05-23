@@ -33,7 +33,7 @@
 import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { Loader2, CheckCircle, XCircle } from 'lucide-vue-next';
-import { useBrokerStore } from '../../stores/brokers';
+import { useBrokerStore } from '../../stores/broker';
 
 const route = useRoute();
 const router = useRouter();
