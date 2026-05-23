@@ -39,6 +39,7 @@ const route = useRoute();
 const router = useRouter();
 const brokerStore = useBrokerStore();
 
+
 const status = ref('loading'); // 'loading' | 'success' | 'error'
 const errorMsg = ref('Something went wrong. Please try again.');
 
