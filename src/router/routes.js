@@ -1,4 +1,4 @@
-import DefaultLayout from '../layout/default.vue'
+// import DefaultLayout from '../layout/default.vue'
 import Dashboard from '../pages/Dashboard/index.vue'
 import Referral from '../pages/Referral/index.vue'
 import Billing from '../pages/Billing/index.vue'
