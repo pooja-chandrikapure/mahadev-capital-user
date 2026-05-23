@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Bebas+Neue&display=swap");
+@import "tailwindcss";
+
+@theme{
+    --font-family-base: "Inter", sans-serif;
+    --color-primary-blue : #004CBE;
+    --color-light-blue : #F5F5FB;
+    --color-primary-white : #FFFFFF;
+    --color-primary-green : #4C9958;
+    --color-primary-red : #E55A57;
+    --color-background : #0f1729;
+    --color-card-background : #ffffff;
+    --color-primary-border : #3935351A;
+    --color-primary-text : #393535;
+    --color-secondary-text : #393535;
+    /* --color-primary-text : #004CBE; */
+    --color-table-header-background : #F5F5FB;
+}
+
+.title-text{
+    @apply font-semibold text-[18px]
+}
+
+.sub-text{
+    @apply text-[12px]
+}
+
+.number-font{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar on mobile, show on desktop */
+@media (max-width: 640px) {
+    .scrollable-content {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-x: auto;
+    }
+
+    .scrollable-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollable-content table {
+        min-width: 100% !important;
+    }
+
+    .scrollable-content th, .scrollable-content td {
+        white-space: nowrap;
+    }
+}
+.scrollable-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scrollable-content::-webkit-scrollbar {
+    display: none;
+}
