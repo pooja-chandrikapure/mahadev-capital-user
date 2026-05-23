@@ -38,7 +38,7 @@
         <div class="flex flex-col items-center" style="margin-bottom: 0">
           <div class="relative mb-2">
             <img
-                src="@/assets/dashboard/crown.svg"
+                :src="crownIcon"
                 alt="crown"
                 class="absolute -top-15 left-1/2 -translate-x-1/2 w-18 h-18 z-10"
             />
@@ -134,6 +134,7 @@
 import { computed } from 'vue'
 import { Doughnut } from 'vue-chartjs'
 import { Chart as ChartJS, ArcElement, Tooltip } from 'chart.js'
+import crownIcon from '@/assets/dashboard/crown.svg'
 
 ChartJS.register(ArcElement, Tooltip)
 
